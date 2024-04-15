@@ -1,0 +1,25 @@
+{
+  "name": "hira_shaikh_cli_number_gussing",
+  "version": "2.0.1",
+  "description": "\"#Cli_Number_Gussing\"",
+  "main": "index.js",
+  "type": "module",
+  "types": "inquirer",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "cli_number_gussing": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
